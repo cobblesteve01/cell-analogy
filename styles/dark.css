@@ -1,0 +1,37 @@
+@font-face {
+    font-family: Google Sans Text;
+    src: url(/fonts/GoogleText.ttf);
+}
+
+@font-face {
+    font-family: Google Sans Display;
+    src: url(/fonts/GoogleSans.ttf);
+}
+
+body {
+    background-color: #1d1d1d;
+    color: white;
+    font-family: Google Sans Text;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: Google Sans;
+}
+
+p {
+    font-family: Google Sans Text;
+    font-size: 18px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.squircle1 {
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border-radius: 30% / 50%;
+}
