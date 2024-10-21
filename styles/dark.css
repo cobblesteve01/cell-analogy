@@ -29,9 +29,103 @@ p {
     justify-content: center;
 }
 
-.squircle1 {
-    height: 50px;
-    width: 50px;
-    background-color: white;
-    border-radius: 30%;
+.to {
+    width: 125px;
+    height: 100px;
+    background-color: rgb(87, 87, 87);
+    box-shadow: 0 0 20px rgb(87, 87, 87);
+    border-radius: 40px;
+    padding: 30px;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.to:hover {
+    scale: 110%;
+    box-shadow: 0 0 35px #1F51FF;
+    background: #1F51FF;
+}
+
+h1.to-h1 {
+    font-size: 30px;
+    text-align: center;
+    margin: 0;
+    margin-top: 10px;
+}
+
+.section1 {
+    background-color: #111111;
+    width: 1895px;
+    height: fit-content;
+    margin: -7px;
+    padding-left: 25px;
+}
+
+@keyframes rainbow-text {
+    0% {
+        color: red;
+        text-shadow: 0 0 25px red;
+    }
+
+    10% {
+        color: orange;
+        text-shadow: 0 0 25px orange;
+    }
+
+    20% {
+        color: yellow;
+        text-shadow: 0 0 25px yellow;
+    }
+
+    30% {
+        color: lime;
+        text-shadow: 0 0 25px lime;
+    }
+
+    40% {
+        color: green;
+        text-shadow: 0 0 25px green;
+    }
+
+    50% {
+        color: #1F51FF;
+        text-shadow: 0 0 25px #1F51FF;
+    }
+
+    60% {
+        color: blue;
+        text-shadow: 0 0 25px blue;
+    }
+
+    70% {
+        color: blueviolet;
+        text-shadow: 0 0 25px blueviolet;
+    }
+
+    80% {
+        color: purple;
+        text-shadow: 0 0 25px purple;
+    }
+
+    90% {
+        color: magenta;
+        text-shadow: 0 0 25px magenta;
+    }
+
+    100% {
+        color: red;
+        text-shadow: 0 0 25px red;
+    }
+}
+
+.rainbow {
+    animation: rainbow-text 10s infinite;
+}
+
+hr {
+    color: white;
+    border-radius: 10000px;
+    height: 2px;
+    background: white;
+    margin: 2px;
 }
