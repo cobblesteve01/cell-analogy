@@ -127,14 +127,9 @@ h1.to-h1 {
     animation: rainbow-text 10s infinite;
 }
 
-hr {
-    color: white;
-    border-radius: 10000px;
-    height: 1px;
-    background: white;
-    width: 1333px;
-}
-
 ::-webkit-scrollbar {
     display: none;
+    opacity: 0;
+    width: 0;
+    height: 0;
 }
