@@ -133,3 +133,22 @@ h1.to-h1 {
     width: 0;
     height: 0;
 }
+
+.madebycobblesteve {
+    background-color: #1F51FF;
+    font-size: 15px;
+    font-family: Google Sans-Text;
+    color: white;
+    font-weight: 600;
+    padding: 10px;
+    text-align: center;
+    width: 1349px;
+    margin-left: -10px;
+    margin-bottom: -10px;
+}
+
+.madebycobblesteve a {
+    color: white;
+    text-underline-offset: 2px;
+    transition: 0.5s;
+}
