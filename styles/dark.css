@@ -16,6 +16,7 @@ body {
     background-color: #1d1d1d;
     color: white;
     font-family: Google Sans Text;
+    max-width: 1366px;
 }
 
 h1 {
@@ -129,7 +130,7 @@ h1.to-h1 {
 hr {
     color: white;
     border-radius: 10000px;
-    height: 2px;
+    height: 1px;
     background: white;
-    margin: 2px;
+    width: 1333px;
 }
