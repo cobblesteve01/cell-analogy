@@ -134,3 +134,7 @@ hr {
     background: white;
     width: 1333px;
 }
+
+::-webkit-scrollbar {
+    display: none;
+}
